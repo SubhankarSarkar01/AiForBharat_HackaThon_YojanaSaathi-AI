@@ -1,0 +1,5 @@
+
+> yojana-saathi-ai-server@1.0.0 start
+> node server.js
+
+Server is running on http://localhost:5000

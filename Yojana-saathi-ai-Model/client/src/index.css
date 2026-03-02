@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #2563eb;
+  --color-primary-600: #1d4ed8;
+  --color-saffron: #FF9933;
+  --color-saffron-hover: #E68A2E;
+  --color-india-green: #138808;
+  --color-india-green-hover: #107A07;
+  --color-navy: #000080;
+  --color-navy-hover: #000066;
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

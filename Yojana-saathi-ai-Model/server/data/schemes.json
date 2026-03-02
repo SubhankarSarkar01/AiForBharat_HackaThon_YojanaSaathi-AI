@@ -1,0 +1,91 @@
+[
+    {
+        "id": "SCH001",
+        "name": "PM Kisan Samman Nidhi",
+        "category": "Agriculture",
+        "description": "Financial benefit of Rs 6000/- per year to all landholding farmers' families.",
+        "eligibility": {
+            "minAge": 18,
+            "maxIncome": 500000,
+            "categories": [
+                "General",
+                "OBC",
+                "SC",
+                "ST"
+            ]
+        },
+        "benefits": "Rs. 6000 per year",
+        "deadline": "2026-12-31"
+    },
+    {
+        "id": "SCH002",
+        "name": "Post Matric Scholarship",
+        "category": "Education",
+        "description": "Financial assistance to students studying at post matriculation or post-secondary stage.",
+        "eligibility": {
+            "minAge": 15,
+            "maxIncome": 250000,
+            "categories": [
+                "SC",
+                "ST",
+                "OBC"
+            ]
+        },
+        "benefits": "Full tuition fee waiver and monthly allowance",
+        "deadline": "2026-08-30"
+    },
+    {
+        "id": "SCH003",
+        "name": "Ayushman Bharat PM-JAY",
+        "category": "Healthcare",
+        "description": "Health coverage of up to Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization.",
+        "eligibility": {
+            "minAge": 0,
+            "maxIncome": 300000,
+            "categories": [
+                "General",
+                "OBC",
+                "SC",
+                "ST"
+            ]
+        },
+        "benefits": "Health insurance up to 5 lakhs",
+        "deadline": "2026-12-31"
+    },
+    {
+        "id": "SCH004",
+        "name": "Mudra Yojana",
+        "category": "Employment",
+        "description": "Loans up to 10 lakhs to the non-corporate, non-farm small/micro enterprises.",
+        "eligibility": {
+            "minAge": 18,
+            "maxIncome": 1000000,
+            "categories": [
+                "General",
+                "OBC",
+                "SC",
+                "ST"
+            ]
+        },
+        "benefits": "Business loan without collateral up to 10 lakhs",
+        "deadline": "2026-12-31"
+    },
+    {
+        "id": "SCH005",
+        "name": "Indira Gandhi National Widow Pension",
+        "category": "Social Welfare",
+        "description": "Financial assistance to widows below poverty line.",
+        "eligibility": {
+            "minAge": 40,
+            "maxIncome": 100000,
+            "categories": [
+                "General",
+                "OBC",
+                "SC",
+                "ST"
+            ]
+        },
+        "benefits": "Monthly pension of Rs. 300-500",
+        "deadline": "2026-12-31"
+    }
+]
